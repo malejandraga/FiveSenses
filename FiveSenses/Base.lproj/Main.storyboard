@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -37,43 +37,43 @@
             <objects>
                 <viewController id="5hH-Yo-N42" customClass="AccelerometerViewController" customModule="FiveSenses" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UKx-8q-ICd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j4B-Y4-mWO">
-                                <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                                 <color key="tintColor" name="blue"/>
                                 <items>
                                     <navigationItem title="Acelerometer" id="LIh-6d-sHc"/>
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="axes" translatesAutoresizingMaskIntoConstraints="NO" id="y4B-8q-tOb">
-                                <rect key="frame" x="67.5" y="196" width="240" height="240"/>
+                                <rect key="frame" x="87" y="220" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Vz3-Ax-1ay"/>
                                     <constraint firstAttribute="height" constant="240" id="v4b-ZK-lUb"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHb-Dq-mNL">
-                                <rect key="frame" x="25" y="356" width="57" height="21"/>
+                                <rect key="frame" x="25" y="380" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULh-uk-6Pm">
-                                <rect key="frame" x="159" y="170" width="57" height="21"/>
+                                <rect key="frame" x="178.5" y="194" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWB-wz-k7Q">
-                                <rect key="frame" x="293" y="356" width="57" height="21"/>
+                                <rect key="frame" x="332" y="380" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qys-2g-8aX" customClass="RunnerButton" customModule="FiveSenses" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="570" width="375" height="48"/>
+                                <rect key="frame" x="0.0" y="765" width="414" height="48"/>
                                 <color key="backgroundColor" name="blue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="Yws-6c-xx9"/>
@@ -122,18 +122,18 @@
             <objects>
                 <viewController id="LWH-bX-rvu" customClass="LocationViewController" customModule="FiveSenses" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m08-Q7-kwy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rz3-7f-Kfr">
-                                <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                                 <color key="tintColor" name="blue"/>
                                 <items>
                                     <navigationItem title="Location" id="RLh-rg-Pym"/>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzG-N9-wmj" customClass="RunnerButton" customModule="FiveSenses" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="570" width="375" height="48"/>
+                                <rect key="frame" x="0.0" y="765" width="414" height="48"/>
                                 <color key="backgroundColor" name="blue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="FpO-H9-09H"/>
@@ -146,13 +146,13 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="QJF-2i-wgZ">
-                                <rect key="frame" x="10" y="211.5" width="355" height="244"/>
+                                <rect key="frame" x="10" y="326" width="394" height="244"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPO-uO-cRu">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U20-9y-Y0w">
-                                                <rect key="frame" x="8" y="8" width="327" height="29"/>
+                                                <rect key="frame" x="8" y="8" width="366" height="29"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="29" id="KoC-lH-F2A"/>
                                                 </constraints>
@@ -161,7 +161,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xi-PR-fHL">
-                                                <rect key="frame" x="37" y="45" width="310" height="23"/>
+                                                <rect key="frame" x="37" y="45" width="349" height="23"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="23" id="Sh5-WZ-nqi"/>
                                                 </constraints>
@@ -181,10 +181,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPe-Az-89P">
-                                        <rect key="frame" x="0.0" y="82" width="355" height="80"/>
+                                        <rect key="frame" x="0.0" y="82" width="394" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDJ-Gw-odn">
-                                                <rect key="frame" x="8" y="8" width="337" height="29"/>
+                                                <rect key="frame" x="8" y="8" width="376" height="29"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="29" id="1ZC-3g-eqS"/>
                                                 </constraints>
@@ -193,7 +193,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idB-G6-PY4">
-                                                <rect key="frame" x="37" y="45" width="310" height="23"/>
+                                                <rect key="frame" x="37" y="45" width="349" height="23"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="23" id="8YK-oL-zrq"/>
                                                 </constraints>
@@ -212,10 +212,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTQ-wh-uLc">
-                                        <rect key="frame" x="0.0" y="164" width="355" height="80"/>
+                                        <rect key="frame" x="0.0" y="164" width="394" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Altitude" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPm-44-hxd">
-                                                <rect key="frame" x="8" y="8" width="327" height="29"/>
+                                                <rect key="frame" x="8" y="8" width="366" height="29"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="29" id="Qvf-B6-6PN"/>
                                                 </constraints>
@@ -224,7 +224,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ek-nf-e0A">
-                                                <rect key="frame" x="37" y="45" width="310" height="23"/>
+                                                <rect key="frame" x="37" y="45" width="349" height="23"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="23" id="Emw-As-qqu"/>
                                                 </constraints>
@@ -281,37 +281,37 @@
             <objects>
                 <viewController id="a62-X0-uzL" customClass="GyroscopeViewController" customModule="FiveSenses" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MzS-Wd-YJw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NfC-Cr-p73">
-                                <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                                 <color key="tintColor" name="blue"/>
                                 <items>
                                     <navigationItem title="Gyroscope" id="kkv-e1-sYe"/>
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rotation" translatesAutoresizingMaskIntoConstraints="NO" id="cBe-fC-grJ">
-                                <rect key="frame" x="67.5" y="196" width="240" height="240"/>
+                                <rect key="frame" x="87" y="220" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="960-Js-ySn"/>
                                     <constraint firstAttribute="width" constant="240" id="sbM-HA-gb3"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rI-mM-l4v">
-                                <rect key="frame" x="159" y="170" width="57" height="21"/>
+                                <rect key="frame" x="178.5" y="194" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4G-5b-t75">
-                                <rect key="frame" x="293" y="356" width="57" height="21"/>
+                                <rect key="frame" x="332" y="380" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFX-ST-ZkE" customClass="RunnerButton" customModule="FiveSenses" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="570" width="375" height="48"/>
+                                <rect key="frame" x="0.0" y="765" width="414" height="48"/>
                                 <color key="backgroundColor" name="blue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="XSC-XJ-hua"/>
@@ -324,7 +324,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggk-ZL-LTa">
-                                <rect key="frame" x="25" y="356" width="57" height="21"/>
+                                <rect key="frame" x="25" y="380" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -366,18 +366,18 @@
             <objects>
                 <viewController id="3Ts-SD-sBS" customClass="CompasViewController" customModule="FiveSenses" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rUY-Kc-ra0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hWx-jP-UG9">
-                                <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                                 <color key="tintColor" name="blue"/>
                                 <items>
                                     <navigationItem title="Compas" id="MBp-Tc-OD2"/>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iln-YL-Efk" customClass="RunnerButton" customModule="FiveSenses" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="570" width="375" height="48"/>
+                                <rect key="frame" x="0.0" y="765" width="414" height="48"/>
                                 <color key="backgroundColor" name="blue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="uT1-M9-BHZ"/>
@@ -390,7 +390,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueCompas" translatesAutoresizingMaskIntoConstraints="NO" id="aax-8h-88w">
-                                <rect key="frame" x="67.5" y="213.5" width="240" height="240"/>
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="BsH-Rm-hVY"/>
                                     <constraint firstAttribute="height" constant="240" id="MP6-Ri-bYP"/>
@@ -425,21 +425,21 @@
             <objects>
                 <viewController id="4RZ-Vz-2MJ" customClass="MapkitViewController" customModule="FiveSenses" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vQz-8O-W1X">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMv-dQ-JlV">
-                                <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                                 <color key="tintColor" name="blue"/>
                                 <items>
                                     <navigationItem title="MapKit" id="CTj-gn-Z36"/>
                                 </items>
                             </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N9O-8x-Xqo">
-                                <rect key="frame" x="0.0" y="116" width="375" height="502"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
                             </mapView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="aJG-42-QM6">
-                                <rect key="frame" x="40" y="131" width="295" height="29"/>
+                                <rect key="frame" x="40" y="155" width="334" height="29"/>
                                 <segments>
                                     <segment title="Standard"/>
                                     <segment title="Satelite"/>

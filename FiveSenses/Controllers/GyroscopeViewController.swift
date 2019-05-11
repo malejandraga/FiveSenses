@@ -16,33 +16,35 @@ class GyroscopeViewController: UIViewController {
     @IBOutlet weak var zLabel: UILabel!
     let motionManager = CMMotionManager()
 
+     var frecuency = 1.0 / 10.0 // 10Hz
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        if startBtn.isActive() {
+        motionManager.gyroUpdateInterval = frecuency
+//        if startBtn.isActive() {
             motionManager.startGyroUpdates()
-        }
+//        }
     }
 
     override func viewWillDisappear(_ animated: Bool) {
-        if startBtn.isActive() {
+//        if startBtn.isActive() {
             motionManager.stopGyroUpdates()
-        }
+//        }
         super.viewWillDisappear(animated)
     }
 
     var timer: Timer?
-    var frecuency = 1.0 / 10.0 // 10Hz
+//    var frecuency = 1.0 / 10.0 // 10Hz
     @IBAction func startTaped(_ sender: Any) {
         guard motionManager.isGyroAvailable else {
             print("Gyro is not available")
             return
         }
         if startBtn.switchState() {
-            motionManager.gyroUpdateInterval = frecuency
+//            motionManager.gyroUpdateInterval = frecuency
             motionManager.startGyroUpdates()
             self.timer = Timer(fire: Date(), interval: frecuency, repeats: true) {  _ in
                 guard let data = self.motionManager.gyroData else { return }
@@ -55,7 +57,7 @@ class GyroscopeViewController: UIViewController {
             if self.timer != nil {
                 self.timer?.invalidate()
                 self.timer = nil
-                motionManager.stopGyroUpdates()
+//                motionManager.stopGyroUpdates()
             }
         }
     }
